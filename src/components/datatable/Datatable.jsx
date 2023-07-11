@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Datatable = () => {
-  const [data, setData] = useState(caseRows);
+ useState(caseRows);
 
   return (
     <div className="datatable">
